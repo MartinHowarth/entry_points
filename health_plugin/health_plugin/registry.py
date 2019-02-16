@@ -1,0 +1,1 @@
+HealthPlugin = 'health'
