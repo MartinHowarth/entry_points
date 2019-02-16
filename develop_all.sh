@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-cd base
+cd entry_points_base
 python setup.py develop
-cd ../health_plugin/
+cd ../entry_points_expensive/
 python setup.py develop
-cd ../ready_plugin/
+cd ../entry_points_health/
 python setup.py develop
-cd ../expensive_plugin/
+cd ../entry_points_ready/
 python setup.py develop
 cd ../end_product/
+python setup.py develop
+cd ../end_product_expensive/
 python setup.py develop
 cd ..

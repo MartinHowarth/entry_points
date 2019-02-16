@@ -1,7 +1,7 @@
 import pkg_resources
 
 from .exceptions import PluginNotFoundError
-from .registry import PLUGIN_ENTRYPOINT_NAME
+from ..plugins.base.registry import PLUGIN_ENTRYPOINT_NAME
 
 
 def all_plugins():
