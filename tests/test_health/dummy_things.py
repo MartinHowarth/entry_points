@@ -1,6 +1,6 @@
-from ep_base.discovery import plugin_by_name
-from ep_base import registry as base_registry
-from health_plugin import registry as health_registry
+from base.discovery import plugin_by_name
+from base import registry as base_registry
+from health import registry as health_registry
 
 
 BaseThing = plugin_by_name(base_registry.BaseThing)

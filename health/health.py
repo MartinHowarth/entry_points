@@ -1,5 +1,5 @@
-from ep_base.discovery import plugin_by_name
-from ep_base import registry
+from base.discovery import plugin_by_name
+from base import registry
 
 
 BasePlugin = plugin_by_name(registry.BasePlugin)
